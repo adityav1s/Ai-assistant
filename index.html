@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Assistant for the Visually Impaired</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background: #004080; color: white; padding: 20px; text-align: center; }
-        nav { background: #0073e6; padding: 10px; text-align: center; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; }
-        section { padding: 20px; }
-        footer { background: #004080; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #004080; color: white; padding: 20px; text-align: center; font-size: 24px; }
+        nav { background: #0073e6; padding: 15px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; padding: 10px; }
+        nav a:hover { background: #005bb5; border-radius: 5px; }
+        section { padding: 40px; max-width: 900px; margin: auto; background: white; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2); }
+        footer { background: #004080; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; margin-top: 20px; }
+        .btn { display: block; text-align: center; background: #0073e6; color: white; padding: 10px; border-radius: 5px; margin: 10px auto; width: 200px; text-decoration: none; }
+        .btn:hover { background: #005bb5; }
     </style>
 </head>
 <body>
@@ -19,63 +22,18 @@
         <p>A Wearable Real-Time Navigation Solution</p>
     </header>
     <nav>
-        <a href="#features">Features</a>
-        <a href="#technology">Technology</a>
-        <a href="#how-it-works">How It Works</a>
-        <a href="#results">Results</a>
-        <a href="#future">Future</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="components.html">Components</a>
+        <a href="limitations.html">Limitations</a>
+        <a href="contact.html">Contact</a>
     </nav>
-    <section id="features">
-        <h2>Key Features</h2>
-        <ul>
-            <li>Real-time Object Detection with YOLO</li>
-            <li>LiDAR-based Distance Measurement</li>
-            <li>Text-to-Speech (TTS) Feedback</li>
-            <li>Hands-Free Wearable Design</li>
-            <li>Offline and Online Operational Modes</li>
-        </ul>
-    </section>
-    <section id="technology">
-        <h2>Technology</h2>
-        <p>This AI-powered assistant integrates advanced hardware and software components, including:</p>
-        <ul>
-            <li><strong>Jetson Orin Nano</strong>: Runs real-time AI inference</li>
-            <li><strong>LiDAR Sensor</strong>: Provides precise depth measurement</li>
-            <li><strong>Camera</strong>: Captures real-time video for object detection</li>
-            <li><strong>YOLO Model</strong>: Identifies objects instantly</li>
-            <li><strong>LLAMA-3 Vision Model</strong>: Provides detailed scene descriptions</li>
-        </ul>
-    </section>
-    <section id="how-it-works">
-        <h2>How It Works</h2>
-        <p>The system operates in two modes:</p>
-        <ul>
-            <li><strong>Offline Mode:</strong> Detects obstacles and provides immediate audio alerts.</li>
-            <li><strong>Online Mode:</strong> Uses AI to generate detailed scene descriptions.</li>
-        </ul>
-    </section>
-    <section id="results">
-        <h2>Experimental Results</h2>
-        <p>Through user testing, the AI assistant demonstrated:</p>
-        <ul>
-            <li>26.3% reduction in navigation time</li>
-            <li>66.3% decrease in collisions</li>
-        </ul>
-    </section>
-    <section id="future">
-        <h2>Future Enhancements</h2>
-        <p>Upcoming improvements include:</p>
-        <ul>
-            <li>Integrating traffic light and crosswalk detection</li>
-            <li>Replacing LiDAR with AI-based depth estimation</li>
-            <li>Miniaturizing hardware for improved wearability</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: singhadityav08@gmail.com</p>
-        <p>Silver Creek High School, San Jose, CA</p>
+    <section>
+        <h2>Welcome to Our AI Assistant</h2>
+        <p>Our mission is to revolutionize navigation for visually impaired individuals using cutting-edge AI technology. Click below to explore more.</p>
+        <a href="mission.html" class="btn">Our Mission</a>
+        <a href="components.html" class="btn">Technology Components</a>
+        <a href="limitations.html" class="btn">Current Limitations</a>
     </section>
     <footer>
         <p>&copy; 2025 AI Assistant for the Visually Impaired. All rights reserved.</p>
